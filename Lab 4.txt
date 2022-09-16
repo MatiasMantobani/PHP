@@ -1,0 +1,239 @@
+Docente : Andres Gaggini
+Ayudante : Candela Yarossi
+Enlace Meet : https://meet.google.com/cxz-raws-bfq
+Mail : agaggini@gmail.com
+Consultas de la materia en : 
+Clave Matriculacion C3 : laboratorio4
+Clave Matriculacion Gral : laboratorio4UTN
+Examen : 1 parcial VIRTUAL + TP FINAL
+Promocion : >=8, recuperando <= 1 parcial
+Asistencia : >=75%
+Recuperatorios : Unica instancia al final
+
+Vamos a usar el campus general
+Slack como Discord
+El cronograma de la C3 y el gral esta mal
+
+------------------------ Clase 18/08 ----------------------------------------------------------------------------------------
+
+Ahora dejamos de compilar (como C)
+dejamos de pre-procesar para Java
+
+Java necesitas un IDE
+
+Vemos HTML y PHP 
+Desarrollaremos sitios web -> modo nashe con web developer?
+
+PHP ejecuta en servidor -> lenguaje servidor
+
+Navegador ejecuta HTML (el html puede tener CSS y JS)
+
+tenemos el server y el front en nuestra compu
+
+todo lo que armamos en php se entrega como respuesta al navegador
+
+"permanece curioso" es fundamental
+
+primer parcial incluye contenidos de PHP
+
+vamos a trabajar con un framework de PHP
+
+vamos a ver lo que es un framework
+
+Instalar Local Server
+
+Teoria por esta y otra clase no
+
+Instalar servidor local para parte PHP (tercer clase)
+
+intranet : es una red "cerrada" a nivel 2 compus o miles pero no esta "conectada" a internet
+
+lenguaje script siempre JS?
+
+el internet sabe todo
+
+<head> es como setup() -> complementa el funcionamiento -> agregas script,css
+
+instalar LOCAL SERVER -> Wamp Server (Windows)
+
+luego le pondremos el framework del "docente"
+
+------------------------ Clase 25/08 ----------------------------------------------------------------------------------------
+
+Se sigue explicando HTML 
+
+El emmet viene nativo en VS, antes era un plugin
+
+la etiqueta meta name viewport content  width=device..." detecta tu pantalla y acomoda la web page
+
+tag = etiqueta
+
+Las 3 formas de style:
+1 como atributo de html tag : 
+2 como tag style en head : 
+3 como archivo .css
+
+Empieza a explicar entidades 
+
+son codigos de caracteres que sino no los podes usar por ser complejos/reservados
+
+explica form (formularios)
+get -> no oculto
+post -> oculto
+
+enc/type="multipart/form-data"
+
+Toda la logica es PHP desde servidor, no usamos javascript
+
+Tablas con SQL
+Mandas query con php
+mostras todo con HTMl
+
+Para los parciales no hay que saber nada de CSS
+
+Para parcial no tenes qeu hacer HTML mi CSS, sino el codigo del lado servidor en PHP (usando local server)
+
+o label o placeholder, los 2 no
+
+atributo required, clave
+
+input radio e input checkbox se manejan diferente con los atributos de label y ellos mismos
+si coincide el name se selecciona uno solo
+en label usas for id para input
+
+placeholder en vez de default value
+
+Hacer TP2
+
+instalas XAMMP -> en donde se instalo-> carpeta htdocs ->dentro de la carpeta pones tus proyectos-> inicas apache con start -> ya deberia andar el codigo php
+
+el live server no funciona para codigo php
+
+pattern="^[0-9]+" 
+
+------------------------ Clase 01/09 ----------------------------------------------------------------------------------------
+
+xampp {
+	Contiene la BD
+	Ejecutar como adminsitrador siempre
+	Escribir en webBrowser : localhost 
+	Escribir en webBrowser : http://localhost/phpmyadmin/ 
+}
+
+Empieza a explicar PHP
+
+PHP (Hypertext Preprocessor){
+	Es server-side
+	Es cross-platform
+	Puede o no contener HTML dentro (un controlador no lleva)
+	No es un lenguaje fuertemente tipado (casi no se usan tipos de variables, podes cambiar de num a string las variables)
+}{
+	echo es el print
+	variables con signo $ delante
+	para concatenar string/html usamos el .
+}
+
+Ver la teoria de PHP para + data
+
+Hacer la teoria en codigo y que quede codigo basico
+
+Computadoras tirando scritoping a servidor y levantando logs. analisos los logs y ves vulnerabilidad
+
+tipo de dato : key-value -> es nuevo para mi -> el value puede ser cualquier tipo de dato
+
+Para la prox pag 36 teoria HTTP methods
+
+Los key de key-value son especiales, andan bien con numeros, palabras no repetidos
+
+El resuelto del TP2 es igual a lo que hay que hacer
+
+Formulario de google y link QR para tomar lista automaticamente
+
+------------------------ Clase 08/09 ----------------------------------------------------------------------------------------
+
+Explica Request, Clases, Metodos, Herencia y Clases Abstractas, Interfaces, Namespaces
+
+Se usa bastante en  server side estos temas
+
+El examen se enfoca en PHP y muchisimo menos en HTML y nada en CSS
+
+En los finales se nos da el HTML y el CSS
+
+Fecha examen : 06/10 podes llevar tu notebook
+
+Se puede hacer hasta TP 3.2
+
+Diferencia entre HTTP Methods -> cambia la URL
+
+la teoria de la teoria unificada esta bastante bien
+
+GET {
+	no se usa para enviar informacion sensible
+	la data que envias esta limitada al largo de la URL
+	se usa principalmente para pedir informacion
+	envia la data por la URL
+	por convencion : obtener datos
+	pdorias madnar datos sin formulario
+}
+Las dos estan en arreglos clave valor
+POST{
+	no le pasa los parametros en la URL
+	pasa la data por el body de la request
+	por convencion : modificar y crear datos
+}
+PUT{
+	Hace update
+	parte puede ir por GET y parte por POST
+}
+
+Para esto ver Network en dev console de web browser
+
+Para manejar las request de GET y POST en PHP usas $_GET y $_POST
+
+Desde PHP agarras el campo "name" en pares clave,valor
+
+Mostro Insomnia que es como Postman
+
+los end-point son donde terminan las request en tu servidor
+
+Como manejas diferentes PUT y GET desde el servidor? -> con logica desde el servidor por ej un id diferente para mismo get pero diferente respuesta
+
+en PHP no hay static class pero si tiene atributos estaticos (atributos de clase)
+
+Un archivo por clase
+
+Namespaces (espacio de nombres) es para agrupar por conveniencia diferentes archivos de codigo
+
+la flecha es como el punto en java . == ->
+
+CTRL + F5 es un refresh mas estricto -> clave usarlo cuando modificas algo chiquito -> usarlo siempre
+
+http://localhost/Proyectos/Varias%20Form/index.php
+
+laravel
+
+------------------------ Clase 15/09 ----------------------------------------------------------------------------------------
+
+06/10 primer parcial --> virtual
+
+Manuel Gavioli hizo los TPs --> dijo e-frame y input radio values problema
+
+seguimos con 100% PHP -> PDF 42
+autoload
+
+carpeta config -> tiras autolog, modulos php que decalran variables necesarias ej la URL del ser4vidor de BD y nombre de BD, el nombre metodo de validacio nde usuaruio
+
+el autoload lo usas para evitarte usar los include
+tambien para directamente crear la variable con el nombre del path y mandarlo a la funcion
+te linkea 2 paths a traves de un tercero
+
+vimos json 
+
+vimso session
+es como se recuerda lo que pussite en tu carrito entre pag y pag de la misma
+no hace falta guardarlo en la base de datos
+
+pag 44 : el password no es necesario que este en sesion
+
+el tp 5 y 5.1 vuelve sobre el 4 para evitar vovler atras y estar logueado
+

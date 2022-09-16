@@ -1,0 +1,17 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Pompiere', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-weight: 900;
+    padding: 1em;
+}
+
+.container {
+    padding: 1em;
+}

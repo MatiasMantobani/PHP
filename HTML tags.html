@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITULO: ESTO APARECE EN EL BUSCADOR Y ES EL NOMBRE DE LA VENTANA WEB</title>
+</head>
+
+<body>
+    <p>los p me crean un parrafo, dividen el texto y permite usar el bloque de texto entero, entre muchas mas cosas, me
+        separan lo de adentro de lo de arriba y abajo </p>
+
+    <h1>soy h1, solo debe haber 1 h1 en todo el archivo</h1>
+    <h2>soy h2,los h2 van dentro de h1</h2>
+    <h3>soy h3,los h3 van dentro de h2</h3>
+    <h4>soy h4,los h4 van dentro de h3</h4>
+    <h5>soy h5,los h5 van dentro de h4</h5>
+    <h6>soy h6,los h6 van dentro de h5</h6>
+
+
+    <h2>LISTED ELEMENTS</h2>
+    <h3>un-ordered list</h3>
+    <ul>
+        <li>pim pam toma lacasito</li>
+        <li>haciendo pure</li>
+        <li>majomushi estudia</li>
+    </ul>
+    <h3>ordered list</h3>
+    <ol>
+        <li>a majo le gusta el olor a pure</li>
+        <li>espero que el posllito este rico</li>
+        <li>ahrrre loco</li>
+    </ol>
+
+    <h3>nested list</h3>
+    <p>podes nestear listas todo lo que quieras</p>
+    <ul>
+        <li>este elemento va a tener su propia lista
+            <ul>
+                <li>huele a patita</li>
+                <li>me gusta el polem</li>
+            </ul>
+        </li>
+
+        <li>este segundo elemento tendra su propia lista tambien
+            <ol>
+                <li>poshito con pure</li>
+                <li>ayer festejamos mi cumple en casita</li>
+            </ol>
+        </li>
+    </ul>
+
+
+    <h2>ANCHOR TAG</h2>
+    <p>es un elemento al que le haces click y te redirige al link que pongas <br>
+        son inline elements <br>
+        podes linkear: sitios de internet, una ubicacion en el mismo archivo HTML que tengo, otro archivo HTML que
+        tengo, etc <br>
+    </p>
+
+    <h3>link a otro sitio de internet</h3>
+    <a href="https://www.youtube.com"> click a las letritas wey</a>
+
+    <h3>link a otro archivo HTML</h3>
+    <a href="el otro html.html">te mando al lorem</a>
+    <p>los links a otro archivo html tienen que estar en la misma carpeta para poder escribirlos asi resumidamente, sino
+        tengo que poner el link
+        completo ("C:\Programacion\The Web Developer Bootcamp 2020\VS Code Guardados\el otro html.html")</p>
+
+
+    <h2>ATTRIBUTES</h2>
+    <p>son informacion adicional para el tag <br>
+        se escriben dentro del open tag, luego de estar definido el tag. Ej: &lt; nombre_tag nombre_atributo &gt; <br>
+        los atributos se escriben: nombre_atributo="valor_atributo" <br>
+        el valor_atributo pueden ser muchas cosas (numeros, letras , etc) <br>
+        Ejemplos de atributos: type = "text" , href="www.youtube.com" , max="16"
+    </p>
+
+
+    <h2>IMAGE</h2>
+    <h3>imagen local, desde la compu</h3>
+    <img src="C:\imagenes piolas\barco vela.jpg" alt="texto que aparecera si la imagen esta rota">
+
+    <h3>imagen online</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/K%C3%BCken_vor_dem_ersten_Ausflug.jpg/800px-K%C3%BCken_vor_dem_ersten_Ausflug.jpg"
+        width="200" height="200" alt="">
+
+    <p> el atributo alt es el texto que aparecera si la imagen esta rota o lo que leera un programa de ayuda a la
+        visualizacion de webpages (screen reader) <br>
+        sin closing tag ( &lt;\ &gt;) <br>
+        podes darle el link de donde quieras, si usas una imagen online es mejor darle click derecho y poner copiar
+        enlace de la imagen para que funcione <br>
+        podes cambiar el tamaño con atributos(con width="200") pero es mala idea, es mejor hacerlo desde css <br>
+        si te aparece el simbolito de foto rota es porque se peto el link <br>
+
+    </p>
+
+
+    <h2>COMMENTS</h2>
+    <p>no se va a ver en el browser, pero esta aqui al costado
+        <!--    te lo cierra solo el vs--> <br>
+        hacer comentarios en cualquier lenguaje con vs code o en p5.js web editor: Ctrl+} <br>
+        la idea es que es para organizar el codigo <br>
+    </p>
+
+
+    <h2>HTML 5</h2>
+    <p>HTML5 se refiere a nuevas cosas en HTML + otras tecnologias que no son HTML pero trabajan en conjunto (HTML and
+        Friends) <br>
+        HTML son una serie de instrucciones que indican al web browser como construir una web page, todos los HTMl se
+        basan en el HTML <br>
+        Standar que define como deberia funcionar el codigo en html <br>
+        HTML Standar <a href="https://html.spec.whatwg.org/">link</a> <br>
+
+    </p>
+
+
+    <h2>INLINE & BLOCK ELEMENTS</h2>
+    <p>
+        inline: van en la misma linea, ocupan solo la porcion que se ve que ocupan <br>
+        block: ocupan toda una linea, aunque no haya nada siguen ocupando toda la linea, se dice que ocupa un bloque
+        <br>
+        se puede cambiar este comportamiento con css <br>
+    </p>
+
+
+    <h2>DIV & SPAN</h2>
+    <h3>div</h3>
+    <p>es un contenedor generico para agrupar elementos, agrupa todo lo de dentro en un bloque <br>
+        el div se comporta diferente de un p <br>
+        va a ser util al llegar a css para agrupar elementos y darles estilo a todos de una <br>
+
+        ejemplo de anchor tags sueltosdentro de este p (2 primeros), otros dentro de un div (los 2 segundos) y los
+        ultimos 2 dentro de un p <br>
+        los sueltos son inline y van pegados al final del texto
+
+        <a href="https://www.youtube.com/">youtube</a>
+        <a href="https://www.google.com/">google</a>
+
+        <br>
+
+        estos son los div div divdiv div divdiv div divdiv div divdiv div div
+        <div>
+            <a href="https://www.youtube.com/">youtube</a>
+            <a href="https://www.google.com/">google</a>
+        </div>
+        div div divdiv div divdiv div divdiv div divdiv div div
+
+        <br>
+        estos son los p los p los p los p los p los p los p los p los p los p los p
+        <p>
+            <a href="https://www.youtube.com/">youtube</a>
+            <a href="https://www.google.com/">google</a>
+        </p>
+        los p los p los p los p los p los p los p los p los p
+    </p>
+
+
+
+    <h3>span</h3>
+    <p>es otro contenedor generico pero este es inline, es util para hacer estilos de elementos sin deformar el texto
+        como por ejemplo para darle color a una palabra o negrita <br>
+        Ej: la palabra entre parentesis estara dentro de un span(<span>chocolate</span>) no cambiara nada porque no
+        le di estilo pero si la analizo con las dev tool de chrome se vera que esta dentro de un span <br>
+    </p>
+
+    <h2>OTROS TAGS</h2>
+    <h3>hr</h3>
+    <p>sin closing tag, hace una linea que ocupa un bloque, luego podes darle estilo con css
+        <hr>
+        esa linea era el hr, podes lograr el mismo efecto dandole un borde inferior al bloque de arriba
+    </p>
+
+    <h3>br</h3>
+    <p>es para que el texto siga en la linea de abajo y aun tener el texto agrupado dentro de un mismo p <br>
+        ejemplo: <br> esto deberia <br> estar en renglones <br> separados
+
+    </p>
+
+    <h3>superscript & subscript</h3>
+    <p>son el <sup>S</sup>uperindice y el <sub>S</sub>ubindice <br>
+        esta bueno para meterles un anchor tag y hacer como una llamada o fracciones</p>
+
+    <h2>ENTITIES</h2>
+    <p>secuencias especiales que se traducen en diferentes caracteres <br>
+        empiezan con & y terminan con ; <br>
+        ejemplo: el simbolo de copiright, letras griegas, otros alfabetos <br>
+        aveces tenes que escribir ciertos caracteres de esta manera porque sino html o el lenguaje que sea los
+        reconoceria como parte significativa de su sintaxis. Ej: el &lt;, &amp;, &hearts; <br>
+        usar: <a href="https://dev.w3.org/html5/html-author/charref">link entities</a> <br>
+        las entidades se pueden escribir con un nombre o un codigo y todos comienzan con & y terminan con ; <br>
+    </p>
+
+
+    <h2>SEMANTIC MARKUP</h2>
+    <p>hay nuevos tags en html5 que explican en el nombre que deberia contener la seccion y eso hace que sea un poco mas
+        rapido la navegacion y el debug y entender el codigo, en contraste con crear todos div tag y que sea un bardo <br>
+        Es muy clave darle las secciones al codigo html 
+    </p>
+
+    <h2>playing with semantic</h2>
+    <p>screen reader: es para gente que no ve y lee en voz alta las cosas de la pag web. Es mucho mejor si la pagina
+        esta bien ordenanda y marcada con los tags correctos porque les facilitara mucho eso</p>
+
+    <h2>vs code: emmet</h2>
+    <p>ayuda a escribir codigo mas rapido y es parte de VS code <br>
+        es lo que hace que en VS escribiendo, por ejemplo, ! en un file.html ya te tira como recomendacion (emmet
+        abbreviation) hacer el esqueleto del html (boilerplate) <br>
+        estas abreviaciones son dadas por el emmet y en este <a href="https://docs.emmet.io/cheat-sheet/">link</a> podes
+        escontrar documentacion al respecto <br>
+        esta muy bueno lo de usar >, + , * , $ para general todos los elements de una <br>
+        en el link esa parte es la de syntax, aparte tenes la parte de HTML que es la version acortada de cada tag y la
+        parte de CSS que es la version acortada tambien <br>
+
+    </p>
+
+
+    <h2>HTML TABLES</h2>
+    <p>2D tables, tabular data <br>
+        hay bocha de tags que van solo adentro de tablas y hay que usarlos </p>
+
+    <h3>td,tr,th</h3>
+
+    <p>td: celda (estan todas en la misma fila) <br>
+        tr: fila <br>
+        las tablas no se auto-alinean, para eso puedo agregar celdas vacias <br>
+        th: headers, lo que dice que es cada columna. Hay que agregarlo como fila <br>
+        por algun motivo las columnas se autoadecuan al encabezado(header) <br>
+    </p>
+
+    <h3>thead, tbody, tfoot</h3>
+    <p>te parten la tabla en secciones, pero no cambian en nada la tabla, es solo para cuestiones de accesibilidad
+        (screen readers) y mejor entendimiento del codigo</p>
+
+    <h3>tablita1 (varela)</h3>
+    <table>
+
+        <thead>
+            <tr>
+                <th>animal</th>
+                <th>peso promedio</th>
+                <th>peso max</th>
+                <th>volador</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104kg</td>
+                <td>156</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <td>somalian</td>
+                <td>90kg</td>
+                <td>130</td>
+                <td>NO</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h3>COLSPAN & ROWSPAN</h3>
+    <p>para cambiar el ancho de las filas o columnas <br>
+        colspan: ancho columna <br>
+        rowspan: ancho fila <br>
+    </p>
+
+    <h3>tablita2 (celdas y colunmas dobles)</h3>
+    <table>
+
+        <thead>
+            <tr>
+                <th rowspan="2">animal</th>
+                <th colspan="2">peso </th>
+                <th rowspan="2">volador</th>
+            </tr>
+            <th>real units</th>
+            <th>retard units</th>
+            <tr>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104kg</td>
+                <td>230</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <td>somalian</td>
+                <td>90kg</td>
+                <td>200</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <td>polloahrre</td>
+                <td>90kg ahhree</td>
+                <td>30</td>
+                <td>SIahrre</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <h2>FORM ELEMENT</h2>
+
+    <p> form seria como formulario <br>
+        es un contenedor (como un div o span) para meter cosas de formularios adentro (botones,input,etc)<br>
+        el form tambien dice a donde enviar la data que contiene (con el action=""") <br>
+        el form esta abajo(no se refleja nada en el browser), pero no puedo usarlo aun porque necesito mandar esa info a
+        un server <br>
+    </p>
+    <form action="aca iria a donde envias la data al mandarla"></form>
+
+    <h2>INPUT</h2>
+    <p>puede funcionar y verse de muchas formas cambiando el atributo type="" <br>
+        atributo placeholder: es lo que dice en el input por default (algunos no pueden llevarlo) <br>
+    </p>
+
+    <h3>form con varios input diferentes dentro</h3>
+    <form action="">
+        <input type="text" placeholder="hola">
+        <input type="password" placeholder="hola">
+        <input type="color" placeholder="hola">
+        <input type="number" placeholder="hola">
+    </form>
+
+    <h2>LABEL</h2>
+    <p>el label element se pueden asociar con otros elements y en este caso con los input <br>
+        cada input element deberian tener un label <br>
+        si los input asociados estan dentro del form el label tambien <br>
+        son inline element <br>
+        al hacer click en el label ira al input asociado <br>
+        podes poder el input dentro del label, no necesitas id pero sera mas dificil de darle estilo (nested) <br>
+        podes no usarlos para indicar que hace un input y safar con un p o un div pero si queres hacer algo serio hay
+        que ponerlos <br>
+    </p>
+
+    <h3>label dentro de form aqui abajo, el primero normal y el segundo nested</h3>
+
+    <form action="">
+        <p>
+            <label for="esto debe ser igual">entereala</label>
+            <input id="esto debe ser igual" type="text" placeholder="entereamela">
+        </p>
+        <p>
+            <label> soy el label
+                <input type="text" placeholder="soy el input">
+            </label>
+        </p>
+        soy el sin p
+        <label for="">aloja</label><input type="text">
+        <label for="">aloja</label><input type="text">
+
+    </form>
+
+
+    <h2>BUTTON</h2>
+    <p>se pueden crear en culaquier lado<br>
+        cuando tenes un boton en el form y no decis explicitamente que ese boton NO debe enviar el form, enviara el
+        form<br>
+        si no esta en un form no hace nada, le dare el compartamiento yo con por ejemplo JS <br>
+        para que no envie el form(submit the form) le doy de atributo type = "button" <br>
+        el atributo type="submit" es el dafault y es el que envia el form <br>
+        podes hacer un input type="submit" y cambiarle el nombre con value, es como un boton mas paja y conviene el
+        boton <br>
+
+    </p>
+
+    <h3>ak stal boton</h3>
+
+    <form action="dale boquita">
+        <button>dentro del form, sin type="button"</button>
+        <button type="button">dentro del form, con type="button"</button>
+        <input type="submit" value="soy un input y soy como un boton submit dentro del form">
+    </form>
+    <button>fuera del form</button>
+
+    <h2>NAME ATTRIBUTE</h2>
+    <p>es el nombre que usas para mandar la data al server <br>
+        en el browser esto se vera como: lo que escribiste en name = lo que escribiste en el input (o tag
+        correspondiente) <br>
+
+    </p>
+
+    <form action="soy el action del form">
+        <label for="id1">soy un label, lo que sigue es un input</label>
+        <input name="esto escribi en name" id="id1" type="text" placeholder="soy el placeholder">
+        <button>wiiijaa</button>
+    </form>
+
+
+    <h2>REQUEST TO SERVER (9gag)</h2>
+    <p>estaria bueno hacer esto para google, youtube, etc <br>
+        el label no hace falta <br>
+        lo que importa es: input con atributo name + boton <br>
+        el boton es opcional porque podes darle enter al input <br>
+
+    </p>
+
+    <h3>ejemplos de form con servidores </h3>
+    <form action="https://9gag.com/search/">
+        <label for="9gag">Buscar en 9gag</label>
+        <input type="text" name="query" id="9gag">
+        <button>Search!</button>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <label for="youtube">Buscar en Youtube</label>
+        <input type="text" name="search_query" id="youtube">
+        <button>Search!</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+        <label for="">Buscar en Google</label>
+        <input id="google" name="q" type="text">
+        <button>Search!</button>
+    </form>
+
+    <h2>OTROS INPUT</h2>
+
+    <h3>checkbox</h3>
+    <p>dentro de form o no <br>
+        si le pones checked empieza marcado <br>
+        cuando haces submit del form y el checkbox esta checked enviara: nombre del name = on <br>
+        si esta desmarcado no mandara nada <br>
+    </p>
+
+    <form action="">
+        <input type="checkbox" name="desmarcado" id="desmarcado">
+        <label for="desmarcado">soy el desmarcado</label>
+
+        <input type="checkbox" name="marcado" id="marcado" checked>
+        <label for="marcado">soy el marcado</label>
+
+        <button>submit</button>
+    </form>
+
+    <h3>radio button</h3>
+    <p>son parecidos a los checkbox pero pero podes poner mas de 1 checkbox y solo podes seleccionar una <br>
+        para darle el funcionamiento correcto de solo poder marcar una tenes que darles el mismo name <br>
+        clave el label en estos para poder diferenciarlos <br>
+        tenes que usar el atributo value para que al enviar el form entregue ese valor al server, de otro modo me
+        mandara el nombre del name = on <br>
+    </p>
+
+    <form action="">
+        <label for="S">S</label>
+        <input type="radio" name="size" id="S" value="S">
+        <label for="M">M</label>
+        <input type="radio" name="size" id="M" value="M">
+        <label for="L">L</label>
+        <input type="radio" name="size" id="L" value="L">
+        <button>Mandar</button>
+    </form>
+
+    <h3>SELECT ELEMENT</h3>
+    <p>menu desplegable con opciones <br>
+        el select element lleva siempre option elements dentro <br>
+        aveces conviene hacer la primera opcion una que diga como por favor elegi <br>
+        podes poner el atributo selected en la opcion que quieras que aparezca por default <br>
+
+    </p>
+    <form action="">
+        <label for="elegir">elegir un animalito</label>
+        <select name="animalito" id="elegir">
+            <option value="gatito">Gatito</option>
+            <option value="perrito">Perrito</option>
+            <option value="no eligio" selected>elegi animalito si</option>
+            <option value="hamster">Hamster</option>
+        </select>
+        <button>mandar</button>
+    </form>
+
+    <h2>RANGE INPUT</h2>
+    <p>es un slider <br>
+        tenes que darle de atributo un minimo y un maximo (min y max) <br>
+        podes darle de la cantidad que se mueve con step <br>
+        podes darle un valor inicial con value <br>
+        atencion al mezclar step con valor inicial que las cosas pueden no coincidir <br>
+        podes hacer lo mismo con un number input
+    </p>
+
+    <form action="">
+        <label for="queso">cantidad de queso con type="range"</label>
+        <input type="range" name="cantidad range" id="queso" min="1" max="101" step="10" value="30">
+        <label for="quesito">cantidad de queso con type="number"</label>
+        <input type="number" name="cantidad number" id="quesito" min="1" max="100" value="49" step="2">
+        <button>quiero queso</button>
+    </form>
+
+    <h2>TEXT AREA</h2>
+    <p>para escribir en un pequeño recuadro <br>
+        el atributos rows es solo valor inicial (cantidad de filas iniciales), podes pasarlo escribiendo mas <br>
+        cols no podes extenderlo mas alla del valor que le des <br>
+        no es un input <br>
+    </p>
+
+    <form action="">
+        <label for="recuadrito">aclaraciones</label>
+        <textarea name="aclaraciones" id="recuadrito" cols="25" rows="2" placeholder="escribi aca chango"></textarea>
+        <button>mandalo</button>
+    </form>
+
+    <h2>VALIDATION</h2>
+    <p>hacer que lo que escribis en los input respondan a ciertas condiciones (adding constrains) <br>
+        lo que va a hacer es lo que podes hacer desde el lado de html, despues podes hacer muchas mas cosas con JS o
+        desde el lado del server que recibe la data <br>
+        lo que se hace de validation desde html se llama "build in validation" <br>
+        <h3>se usan:</h3>
+        el atributo required en el cual te sale un cartel que dice: please complete this <br>
+        minlength y maxlength para letras o min y max para numeros <br>
+        pattern: es la que va, alto codigo raro (ni toca el tema) <br>
+        algunos input ya tienen un built in patterns como el input mail que pide un @ y cosas despues o el input url
+        <br>
+
+    </p>
+
+    <form action="">
+        <label for="first">enter firts name</label>
+        <input type="text" name="first name" id="first" required>
+        <br>
+        <label for="estadeaca">username</label>
+        <input type="text" id="estadeaca" name="username" minlength="5" maxlength="20" required>
+        <button>submit</button>
+    </form>
+
+    <h2>MARATHON FORM</h2>
+
+    <h3>Maraton a correrse jeje</h3>
+
+    <form action="/regirster">
+        <div>
+            <label for="a">First Name</label>
+            <input type="text" id="a" required name="first" minlength="3" maxlength="20">
+
+            <label for="b"> Last Name</label>
+            <input type="text" id="b" required name="last" minlength="3" maxlength="20">
+        </div>
+
+        <p>elegir cuanto te corres</p>
+        <div>
+            <input type="radio" name="dist" id="r" value="5k">
+            <label for="r">5k</label>
+
+            <input type="radio" name="dist" id="t" value="media">
+            <label for="t">media maraton</label>
+
+            <input type="radio" name="dist" id="y" value="full">
+            <label for="y">full maraton</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="d">Email</label>
+            <input type="email" name="mail" id="d" required>
+
+            <label for="e">Password</label>
+            <input type="password" name="password" id="e" required minlength="8" maxlength="30">
+        </div>
+
+        <div>
+            <label for="f">Edad</label>
+            <select name="edad" id="f">
+                <option value="poquito">menos de 18</option>
+                <option value="mucho">entre 18 y 30</option>
+                <option value="bocha">mas de 30</option>
+                <option value="ahrre">soy un elfo</option>
+            </select>
+        </div>
+
+        <button>Register!</button>
+    </form>
+
+
+    <h2>OBSERVACIONES FINALES</h2>
+    <p>las id no pueden empezar con numero <br>
+        alt + leftclick agrega multiples cursores a donde click <br>
+        si no le das un action al form refrescara la pagina y enviara la data a la misma pagina <br>
+        Ctrl + click abre el link en nueva pestaña <br>
+    </p>
+</body>
+
+</html>

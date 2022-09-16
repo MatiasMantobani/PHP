@@ -1,0 +1,116 @@
+html {
+    font-size: larger;
+    font-family: tahoma, arial;
+}
+
+body {
+    background-color: #14213d;
+    margin: 0;
+    /* font-size: 30px; */
+}
+
+#shiffman {
+    color: #e5e5e5;
+    line-height: 1.2em;
+    text-align: center;
+
+}
+
+.love {
+    display: inline;
+    text-decoration: line-through;
+}
+
+h1 {
+    color: #ffba08;
+    background-color: #006d77;
+    text-align: center;
+    letter-spacing: 1em;
+
+}
+
+button:hover {
+    text-decoration: underline solid #000;
+}
+
+button {
+    font-size: 1em;
+}
+
+input {
+    font-size: 1em;
+}
+
+#ga {
+    background-color: #000;
+    text-align: center;
+    display: inline-block;
+    margin: 1em;
+    border-radius: 100%;
+
+}
+
+#yo {
+    background-color: #FF0000;
+    text-align: center;
+    display: inline-block;
+    margin: 1em;
+    border-radius: 100%;
+}
+
+#go {
+    background-color: #0F9D58;
+    text-align: center;
+    display: inline-block;
+    margin: 1em;
+    border-radius: 100%;
+}
+
+#go input {
+    background-color: #F4B400;
+    color: #4285F4;
+    font-weight: 700;
+}
+
+#go button {
+    background-color: #DB4437;
+    color: #000;
+
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #e5e5e5;
+}
+
+#forgetit {
+    border: 2px solid #e5e5e5;
+    padding-bottom: 1em;
+    text-align: center;
+    display: block;
+    /*tiene que ser un block level element para poder hacer margin: auto;*/
+    border-radius: 2em;
+    margin: 2em auto;
+    width: 40em;
+}
+
+#hola {
+    text-align: center;
+    margin: 2em auto;
+    width: 400px;
+}
+
+a {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section p {
+    text-align: end;
+}

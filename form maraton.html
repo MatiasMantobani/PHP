@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+    
+</head>
+
+<body>
+
+    <h1>Marathon</h1>
+
+<form action="/regirster">
+    <div>
+        <label for="a">First Name</label>
+        <input type="text" id="a" required name="first" minlength="3" maxlength="20">
+
+        <label for="b"> Last Name</label>
+        <input type="text" id="b" required name="last" minlength="3" maxlength="20">
+    </div>
+
+    <p>Type of Marathon</p>
+    <div>
+        <input type="radio" name="dist" id="r" value="5k">
+        <label for="r">5k</label>
+
+        <input type="radio" name="dist" id="t" value="media">
+        <label for="t">half maraton</label>
+
+        <input type="radio" name="dist" id="y" value="full">
+        <label for="y">full maraton</label>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="d">Email</label>
+        <input type="email" name="mail" id="d" required>
+
+        <label for="e">Password</label>
+        <input type="password" name="password" id="e" required minlength="8" maxlength="30">
+    </div>
+
+    <div>
+        <label for="f">Age</label>
+        <select name="edad" id="f">
+            <option value="poquito">Less than 18</option>
+            <option value="mucho">Between 18 y 30</option>
+            <option value="bocha">More than 30</option>
+            <option value="ahrre">soy un elfo y/o vampiro</option>
+        </select>
+    </div>
+
+    <button>Register!</button>
+</form>
+</body>
+</html>
+
+
